@@ -8,7 +8,7 @@ document.querySelector('.btn').addEventListener('click', function(e) {
 
 // 2. Form Submission - Using EmailJS to send form data via email
 (function() {
-    emailjs.init("your_public_key_here"); // Replace with your EmailJS user ID
+    emailjs.init("lGxu8sBQRwS20IN8f"); // Replace with your EmailJS user ID
 })();
 
 document.querySelector('form').addEventListener('submit', function(e) {
@@ -20,7 +20,7 @@ document.querySelector('form').addEventListener('submit', function(e) {
     const message = document.getElementById('message').value;
 
     // Send email using EmailJS
-    emailjs.send("your_service_id", "your_template_id", {
+    emailjs.send("service_sf8x18x", "template_akafaz9", {
         from_name: name,
         from_email: email,
         message_html: message

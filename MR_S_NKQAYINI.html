@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Simamkele Nkqayini - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="MR_S_NKQAYINI.css">
+
 </head>
 <body>
 
@@ -58,24 +60,52 @@
             <img src="simahPic.jpg" alt="Cv-icon" class="about-image">
         </div>
     </section>
-    <section>
+   
+    <div class="timeline container">
+      <!-- First Timeline Item -->
+      <div class="row timeline-item" data-aos="fade-down" data-aos-once="false">
+        <div class="col-md-2 text-center">
+          <div class="timeline-dot"></div>
+        </div>
+        <div class="col-md-10">
+          <div class="timeline-content card shadow-sm p-3 mb-4">
+            <h3 class="card-title">Full Stack Developer Intern</h3>
+            <span class="text-warning">CAPACITI: 2024/08/02 - Present</span>
+            <p class="card-text mt-2">Developed websites and web applications using HTML, CSS, JavaScript, Node.js. Specialized in user login systems, dynamic content, and performance optimization.</p>
+          </div>
+        </div>
+      </div>
     
-      <h3>Education</h3>
-      <ul>
-        <li><strong>Bachelor of Science in Computer Science and Physics</strong> — University of Fort Hare (2020-2023)</li>
-        <li><strong>NSC</strong> — Vulindlela SSS (2018)</li>
-      </ul>
-      <h3>Experience</h3>
-      <ul>
-        <li><strong>Student Tutor</strong> — Physics Department, University of Fort Hare (Mar 2023 - Nov 2023)</li>
-        <ul>
-          <li>Conducting lab sessions with hands-on experiments</li>
-          <li>Assisting with data analysis and interpretation</li>
-          <li>Grading lab reports and providing feedback</li>
-          <li>Maintaining lab cleanliness and safety</li>
-        </ul>
-      </ul>
-    </section>
+      <!-- Second Timeline Item -->
+      <div class="row timeline-item" data-aos="fade-up" data-aos-once="false" data-aos-delay="100">
+        <div class="col-md-2 text-center">
+          <div class="timeline-dot"></div>
+        </div>
+        <div class="col-md-10">
+          <div class="timeline-content card shadow-sm p-3 mb-4">
+            <h3 class="card-title">BSc in Computer Science and Physics</h3>
+            <span class="text-warning">University of Fort Hare</span>
+            <p class="card-text mt-2">A Bachelor of Science in Computer Science and Physics is an interdisciplinary degree that equips students with a strong foundation in both computational techniques and physical sciences. The program focuses on developing skills in programming, data analysis, and problem-solving, while also exploring the fundamental laws of physics. This combination allows graduates to approach scientific challenges with technical proficiency and analytical thinking, preparing them for careers in technology, research, or further academic studies in fields such as software development, data science, or engineering.</p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Third Timeline Item -->
+      <div class="row timeline-item" data-aos="fade-up" data-aos-once="false" data-aos-delay="100">
+        <div class="col-md-2 text-center">
+          <div class="timeline-dot"></div>
+        </div>
+        <div class="col-md-10">
+          <div class="timeline-content card shadow-sm p-3 mb-4">
+            <h3 class="card-title">Grade 12</h3>
+            <span class="text-warning">Vulindlela SSS</span>
+            <p class="card-text mt-2">During my time at Vulindlela S.S.S from Grade 10 to Grade 12, I studied Physical Sciences, Mathematics, Life Sciences, Geography, English (FL), IsiXhosa (HL), and Life Orientation. This diverse curriculum equipped me with a strong foundation in the sciences and languages, fostering analytical thinking and problem-solving skills.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
 
     <!-- Skills Section -->
     <section id="skills">
@@ -90,14 +120,8 @@
       </ul>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>StudySphere</strong> — A platform for learners to find study materials and tutors.</li>
-        <li><strong>Eco-Friendly Marketplace</strong> — An e-commerce site for promoting small eco-friendly businesses.</li>
-      </ul>
-    </section>
+<!-- Projects Section -->
+
 
     <!-- Contact Section -->
     <section id="contact">
@@ -151,7 +175,19 @@
           <img src="Email.png" alt="Email">
         </a>
       </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
       <script src="MR-NKQAYINI.js"></script>
       <script src="MR_S_NKQAYINI.js"></script>
+
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "YOUR_PUBLIC_KEY",
+      });
+   })();
+</script>
 </body>
 </html>
