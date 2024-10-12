@@ -43,21 +43,37 @@ document.querySelectorAll('nav ul li a').forEach(link => {
     });
   });
   
-  // Contact Form Validation
-  document.querySelector('form').addEventListener('submit', function (e) {
-    e.preventDefault();
-    
-    let name = document.getElementById('name').value;
-    let email = document.getElementById('email').value;
-    let message = document.getElementById('message').value;
-  
-    if (name && email && message) {
+// Initialize EmailJS with your user ID
+emailjs.init('YOUR_EMAILJS_USER_I');
+
+// Contact Form Submission
+document.querySelector('form').addEventListener('submit', function (e) {
+  e.preventDefault();
+
+  let name = document.getElementById('name').value;
+  let email = document.getElementById('email').value;
+  let message = document.getElementById('message').value;
+
+  // Validate the form
+  if (name && email && message) {
+    // Sending email using EmailJS
+    emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+      name: name,
+      email: email,
+      message: message,
+    })
+    .then(function(response) {
       alert('Thank you ' + name + '! Your message has been sent.');
-      this.reset(); // Clear the form
-    } else {
-      alert('Please fill out all fields before submitting.');
-    }
-  });
+      document.querySelector('form').reset(); // Clear the form
+    }, function(error) {
+      alert('Failed to send message. Please try again later.');
+      console.error('Error:', error);
+    });
+  } else {
+    alert('Please fill out all fields before submitting.');
+  }
+});
+
   
   // Download CV button hover effect
   const downloadBtn = document.querySelector('.btn');
