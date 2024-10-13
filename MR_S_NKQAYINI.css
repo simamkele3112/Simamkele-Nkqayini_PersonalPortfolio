@@ -380,6 +380,11 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 15px;
+
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: space-between; /* Distribute space evenly */
+  height: 100%; /* Ensure the card takes full height of the column */
 }
 
 .project-card img {
