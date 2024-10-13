@@ -53,3 +53,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // You can call addProject() function to add more projects as you complete them.
 });
+
+
