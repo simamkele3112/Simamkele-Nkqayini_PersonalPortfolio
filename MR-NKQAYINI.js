@@ -11,25 +11,31 @@ document.querySelector('.btn').addEventListener('click', function(e) {
     emailjs.init("lGxu8sBQRwS20IN8f"); // Replace with your EmailJS user ID
 })();
 
-document.querySelector('form').addEventListener('submit', function(e) {
-    e.preventDefault(); // Prevent default form submission behavior
 
-    // Capture form data
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
 
-    // Send email using EmailJS
-    emailjs.send("service_sf8x18x", "template_akafaz9", {
-        from_name: name,
-        from_email: email,
-        message_html: message
-    }).then(function(response) {
-        alert("Message sent successfully!"); // Success alert
+// emailjs.init('YOUR_EMAILJS_USER_ID');
+
+document.getElementById("contact-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+  
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+  
+    // EmailJS sending
+    emailjs.send("service_8zv6pum", "template_j14fers", {
+      name: name,
+      email: email,
+      message: message,
+    })
+    .then(function(response) {
+      document.getElementById("success-message").style.display = "block";
+      document.getElementById("contact-form").reset();
     }, function(error) {
-        alert("Failed to send message. Please try again later."); // Error alert
+      document.getElementById("error-message").style.display = "block";
     });
-});
+  });
+  
 
 // 3. Add New Project Dynamically
 document.addEventListener('DOMContentLoaded', function() {
@@ -47,3 +53,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // You can call addProject() function to add more projects as you complete them.
 });
+
+
