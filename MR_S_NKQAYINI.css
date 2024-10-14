@@ -8,11 +8,18 @@ body {
     background-color: whitesmoke;
     color: black;
   }
+
+  #h1{
+    text-shadow: 6px 4px 4px whitesmoke;
+    color: red;
+  }
   
-  h1, h2, h3 {
+  #h2, h3 {
     color: darkgreen;
     margin-bottom: 20px;
   }
+
+  
   
   .profile-pic {
     width: 200px;
@@ -268,7 +275,7 @@ body {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid darkgreen;
     border-radius: 5px;
   }
   
@@ -276,10 +283,12 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    color: #fff;
+    background-color: darkgreen;
   }
   
   button:hover {
-    background-color: lightslategray;
+    color: darkgreen;
   }
   
   /* Footer Styles */
