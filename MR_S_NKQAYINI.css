@@ -135,7 +135,6 @@ body {
     border-radius: 50%; /* Makes the image circular */
     object-fit: cover;
 }
-
   
   #home .home-content {
     display: flex;
@@ -143,6 +142,63 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
   }
+
+  /* Education Section */
+#education {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f8f9fa; /* Light background to make the section stand out */
+}
+
+#education h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.education-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.education-item {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.education-item h3 {
+  font-size: 1.8rem;
+  color: darkgreen;
+  margin-bottom: 10px;
+}
+
+.education-item span {
+  display: block;
+  font-size: 1.2rem;
+  color: #ffc107;
+  margin-bottom: 10px;
+}
+
+.education-item p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.education-item ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  text-align: left; /* Align the list to the left */
+  color: #333;
+}
+
+
 
   /*skill section*/
   
