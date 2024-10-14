@@ -276,78 +276,7 @@ body {
     .profile-container {
       align-items}
 
-/* Timeline Section */
-.timeline {
-  position: relative;
-  padding: 2rem 0;
-}
 
-.timeline::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 100%;
-  width: 4px;
-  background: #f7ab71; /* Line color */
-}
-
-.timeline-dot {
-  position: relative;
-  background-color: #f07026;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  margin: 0 auto;
-  z-index: 1;
-}
-
-.timeline-item {
-  position: relative;
-  margin-bottom: 2rem;
-  z-index: 10;
-}
-
-.timeline-content {
-  padding: 1rem;
-  background-color: #50504e98;
-  border: 3px solid #f08c52;
-  border-radius: 0.25rem;
-  position: relative;
-  color: rgba(232, 232, 232, 0.988);
-}
-
-/* Card-specific styling */
-.timeline-content.card {
-  background-color: #ffffff;
-  border: 1px solid #ddd;
-}
-
-.timeline-content .card-title {
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-
-.timeline-content .card-text {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-/* Adjustments for smaller screens */
-@media (max-width: 768px) {
-  .timeline::before {
-    left: 10%; /* Aligns the vertical line for smaller screens */
-  }
-
-  .timeline-dot {
-    left: 5%; /* Aligns the dots on smaller screens */
-  }
-
-  .timeline-item .col-md-10 {
-    padding-left: 2.5rem; /* Ensures content is aligned with the dot */
-  }
-}
 
 /* Optional styling for Bootstrap warning text */
 .text-warning {
