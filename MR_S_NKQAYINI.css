@@ -55,9 +55,6 @@ body {
     margin-left: 20px;
     font-size: 1.5rem;
   }
-
-  
-
   .greeting {
     font-size: 2.5rem;
     font-weight: bold;
@@ -309,11 +306,6 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 15px;
-
-  display: flex;
-  flex-direction: column; /* Stack children vertically */
-  justify-content: space-between; /* Distribute space evenly */
-  height: 100%; /* Ensure the card takes full height of the column */
 }
 
 .project-card img {
@@ -333,5 +325,4 @@ body {
   flex: 1;
   margin: 0 10px;
 }
-
 
