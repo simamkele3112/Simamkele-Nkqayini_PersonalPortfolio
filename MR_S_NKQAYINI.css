@@ -9,15 +9,14 @@ body {
     color: black;
   }
 
-  #h1{
-    text-shadow: 6px 4px 4px whitesmoke;
-    color: red;
-  }
-  
-  #h2, h3 {
-    color: darkgreen;
-    margin-bottom: 20px;
-  }
+  .logo {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Make the height the same as width for a perfect circle */
+    border-radius: 50%; /* This makes the image circular */
+    object-fit: cover; /* Ensures the image fits inside the circle without distortion */
+}
+
+
 
   
   
