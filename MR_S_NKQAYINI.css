@@ -17,7 +17,6 @@ body {
 }
 
 
-/* Video Background Container */
 .video-background-container {
   position: relative;
   width: 100%;
@@ -35,14 +34,6 @@ body {
   z-index: 1;
 }
 
-/* Hide the video on small screens */
-@media (max-width: 600px) {
-  #background-video {
-    display: none;
-  }
-}
-
-/* Overlay Content Styling */
 .home-content-overlay {
   position: relative;
   z-index: 2;
@@ -51,42 +42,10 @@ body {
   padding: 20px;
 }
 
-/* Text and Profile Container */
-.greeting {
-  font-size: calc(24px + 1vw); /* Responsive font size */
-}
-
-.subtext {
-  font-size: calc(18px + 0.8vw);
-}
-
-.home-content p {
-  font-size: calc(14px + 0.5vw);
-}
-
-/* Profile Picture and Button */
-.profile-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .profile-container img {
-  width: 150px;
+  width: 160px;
   border-radius: 50%;
   margin-top: 20px;
-}
-
-/* Responsive adjustments for smaller screens */
-@media (max-width: 600px) {
-  .profile-container img {
-    width: 100px; /* Smaller profile picture */
-  }
-
-  .greeting, .subtext, .home-content p {
-    font-size: 1em; /* Reduce text size */
-    padding: 10px;
-  }
 }
 
 
