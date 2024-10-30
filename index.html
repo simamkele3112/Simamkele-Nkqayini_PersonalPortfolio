@@ -87,8 +87,8 @@
    <!-- About Section -->
    <section id="about">
    <h2 class="text-success">About Me</h2>
-  <div class="about-container">
-      <p>
+  <div class="about-container bg-dark">
+      <p class="text-white">
           Highly motivated Software Developer with a passion for technology and web development.
           I hold a Bachelor of Science in Computer Science and Physics from the University of Fort Hare, where I developed a strong foundation in programming languages such as Java, C++, and Python.
           My expertise lies in building responsive and dynamic web applications using React, JavaScript, HTML, and CSS, ensuring seamless, user-friendly, and visually captivating experiences.
@@ -105,14 +105,14 @@
   </div>
 
  <!-- Education Section -->
-<section id="education">
+<section id="education ">
   <div class="education-container">
-    <div class="education-item">
+    <div class="education-item bg-dark">
       <h3 class="card-title">Full Stack Developer Intern</h3>
       <span class="text-warning">CAPACITI: 2024/08/02 - Present</span>
-      <p class="card-text mt-2">
+      <p class="card-text mt-2 text-white" >
         As part of my role as a Full Stack Developer Candidate, currently at CAPACITI Software Development Bootcamp, which included intensive training in:
-        <ul>
+        <ul class="text-white">
           <li>HTML & CSS (Developed a Personal Portfolio Webpage)</li>
           <li>JavaScript Basics & DOM Manipulation (Built an Interactive Resume)</li>
           <li>Advanced JavaScript & Node.js (Created a Simple REST API)</li>
@@ -124,18 +124,18 @@
       </p>
     </div>
 
-    <div class="education-item">
+    <div class="education-item bg-dark">
       <h3 class="card-title">BSc in Computer Science and Physics</h3>
       <span class="text-warning">University of Fort Hare</span>
-      <p class="card-text mt-2">
+      <p class="card-text mt-2 text-white">
         A Bachelor of Science in Computer Science and Physics is an interdisciplinary degree that equips students with a strong foundation in both computational techniques and physical sciences. The program focuses on developing skills in programming, data analysis, and problem-solving, while also exploring the fundamental laws of physics. This combination allows graduates to approach scientific challenges with technical proficiency and analytical thinking, preparing them for careers in technology, research, or further academic studies in fields such as software development, data science, or engineering.
       </p>
     </div>
 
-    <div class="education-item">
+    <div class="education-item bg-dark">
       <h3 class="card-title">Grade 12</h3>
       <span class="text-warning">Vulindlela SSS</span>
-      <p class="card-text mt-2">
+      <p class="card-text mt-2 text-white">
         Studying Physical Sciences, Mathematics, Life Sciences, Geography, English (FL), IsiXhosa (HL), and Life Orientation in Grade 12 equipped me with a solid foundation for pursuing a degree in Computer Science and Physics. Physical Sciences and Mathematics sharpened my problem-solving and analytical skills, critical for tackling complex algorithms in computer science and understanding physics principles. Life Sciences and Geography enhanced my data analysis and research abilities, while English and IsiXhosa strengthened my communication, essential for teamwork and clear articulation of ideas. Life Orientation helped develop time management, resilience, and decision-making, all vital in navigating the demands of higher education.
       </p>
     </div>
@@ -146,7 +146,7 @@
    <!-- Skills Section -->
 <section id="skills">
   <h2 class="text-success">Skills</h2>
-  <div class="skills-container">
+  <div class="skills-container bg-dark">
     <div class="skill">
       <i class="fab fa-js-square"></i>
       <span>JavaScript</span>
@@ -198,86 +198,132 @@
 
 
 <!-- Projects Section -->
-<section id="projects">
-  <h2 class="projects-heading">Projects</h2>
-  <div class="row">
-    <!-- Project 1 -->
-    <div class="col-md-2">
-      <div class="card project-card">
-        <img src="Portfolio.jpeg" class="card-img-top" alt="Project 1 Image">
-        <div class="card-body">
-          <h5 class="card-title">PERSONAL PORTFOLIO</h5>
-          <p class="card-text text-success">My Personal portfolio Webpage coded by Me.</p>
-          <a href="https://simamkele.netlify.app/" class="btn btn-primary" target="_blank">View Project</a>
+ 
+<!-- Projects Section -->
+<section class="projects py-5 bg-dark mt-5" id="projects">
+  <div class="container">
+    <hr>
+    <h2 class="text-center p-2 text-success">My Projects</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- Card 1 -->
+      <div class="col ">
+        <div class=" col box-shadow card h-100">
+          <img src="simah.PNG" id="image-card" class="card-img-top" alt="Code Head's Hub Loyalty program">
+          <div class="card-body">
+            <h5 class="card-title">My portfolio Webpage</h5>
+            <p class="card-text">
+              My Portfolio Webpage is a showcase of my skills, creativity, and growth as a developer. This was my very first project coded independently, where I learned how to combine design elements and functionality to create an engaging, user-friendly experience.
+           </p>
+           
+            <a href="https://simamkele.netlify.app/" target="_blank" style="margin-top: -5px;" class="btn btn-success">Check this project</a>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- Project 2 -->
-    <div class="col-md-2">
-      <div class="card project-card">
-        <img src= "Eco.jpeg" class="card-img-top" alt="Project 2 Image">
-        <div class="card-body">
-          <h5 class="card-title">MarketPlace</h5>
-          <p class="card-text">Eco-friendly MarketPlace coded by me collaborating with lwandile Toto, IN PROGRESS...</p>
-          <a href="https://nkqayini-toto.netlify.app/" class="btn btn-primary" target="_blank">View Project</a>
+    
+       <!-- Card 1 -->
+       <div class="col ">
+        <div class=" col box-shadow card h-100">
+          <img src="Eco.jpeg" id="image-card" class="card-img-top" alt="Code Head's Hub Loyalty program">
+          <div class="card-body">
+            <h5 class="card-title">Eco-friendly MarketPlace</h5>
+            <p class="card-text">
+              A platform developed by two interns at Capaciti trying to minimize waste products. (HTML , CSS and Boostrap 5)
+           </p>
+           
+            <a href="https://nkqayini-toto.netlify.app/" target="_blank" style="margin-top: -5px;" class="btn btn-success">Check this project</a>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- Project 3 -->
-    <div class="col-md-2">
-      <div class="card project-card">
-        <img src="project3.jpg" class="card-img-top" alt="Project 3 Image">
-        <div class="card-body">
-          <h5 class="card-title">Project 3</h5>
-          <p class="card-text">Description of Project 3.</p>
-          <a href="https://project3link.com" class="btn btn-primary" target="_blank">View Project</a>
+
+       <!-- Card 1 -->
+       <div class="col ">
+        <div class=" col box-shadow card h-100">
+          <img src="Data.jpeg" id="image-card" class="card-img-top" alt="Code Head's Hub Loyalty program">
+          <div class="card-body">
+            <h5 class="card-title">Christmas Tree Sales Data Analysis 🎄📊</h5>
+            <p class="card-text">
+              Data analysis project focusing on Christmas tree sales trends (both real and artificial). This hands-on project allowed me to dive deep into data manipulation, statistical analysis, and data visualization using powerful Python libraries like pandas, NumPy, Matplotlib, and Seaborn.
+           </p>
+           
+            <a href="https://github.com/simamkele3112/Data_Analysis.git" target="_blank" style="margin-top: -5px;" class="btn btn-success">Check this project</a>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- Project 4 -->
-    <div class="col-md-2">
-      <div class="card project-card">
-        <img src="project4.jpg" class="card-img-top" alt="Project 4 Image">
-        <div class="card-body">
-          <h5 class="card-title">Project 4</h5>
-          <p class="card-text">Description of Project 4.</p>
-          <a href="https://project4link.com" class="btn btn-primary" target="_blank">View Project</a>
+
+       <!-- Card 1 -->
+       <div class="col ">
+        <div class=" col box-shadow card h-100">
+          <img src="simah.PNG" id="image-card" class="card-img-top" alt="Code Head's Hub Loyalty program">
+          <div class="card-body">
+            <h5 class="card-title">My portfolio Webpage</h5>
+            <p class="card-text">
+              My Portfolio Webpage is a showcase of my skills, creativity, and growth as a developer. This was my very first project coded independently, where I learned how to combine design elements and functionality to create an engaging, user-friendly experience.
+           </p>
+           
+            <a href="https://simamkele.netlify.app/" target="_blank" style="margin-top: -5px;" class="btn btn-success">Check this project</a>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- Project 5 -->
-    <div class="col-md-2">
-      <div class="card project-card">
-        <img src="project5.jpg" class="card-img-top" alt="Project 5 Image">
-        <div class="card-body">
-          <h5 class="card-title">Project 5</h5>
-          <p class="card-text">Description of Project 5.</p>
-          <a href="https://project5link.com" class="btn btn-primary" target="_blank">View Project</a>
+
+       <!-- Card 1 -->
+       <div class="col ">
+        <div class=" col box-shadow card h-100">
+          <img src="simah.PNG" id="image-card" class="card-img-top" alt="Code Head's Hub Loyalty program">
+          <div class="card-body">
+            <h5 class="card-title">My portfolio Webpage</h5>
+            <p class="card-text">
+              My Portfolio Webpage is a showcase of my skills, creativity, and growth as a developer. This was my very first project coded independently, where I learned how to combine design elements and functionality to create an engaging, user-friendly experience.
+           </p>
+           
+            <a href="https://simamkele.netlify.app/" target="_blank" style="margin-top: -5px;" class="btn btn-success">Check this project</a>
+          </div>
         </div>
       </div>
+
+       <!-- Card 1 -->
+       <div class="col ">
+        <div class=" col box-shadow card h-100">
+          <img src="simah.PNG" id="image-card" class="card-img-top" alt="Code Head's Hub Loyalty program">
+          <div class="card-body">
+            <h5 class="card-title">My portfolio Webpage</h5>
+            <p class="card-text">
+              My Portfolio Webpage is a showcase of my skills, creativity, and growth as a developer. This was my very first project coded independently, where I learned how to combine design elements and functionality to create an engaging, user-friendly experience.
+           </p>
+           
+            <a href="https://simamkele.netlify.app/" target="_blank" style="margin-top: -5px;" class="btn btn-success">Check this project</a>
+          </div>
+        </div>
+      </div>
+
+      <!--Add more cards-->
+      
     </div>
   </div>
 </section>
+
+ 
 
 
     <!-- Contact Section -->
     <section id="contact">
       <h2 class="text-success">Contact Me</h2>
-      <ul>
+      <ul class="text-white fs-5">
         <li><strong>Email:</strong> simamkelen3112@gmail.com</li>
         <li><strong>Phone:</strong> 0604567462</li>
         <li><strong>Date of Birth:</strong> 31-12-1997</li>
         <li><strong>Location:</strong> Currently in Cape Town</li>
       </ul>
-      <form action="submit_form.php" method="POST">
+
+      <form action="https://formspree.io/f/xldejegq"
+      method="POST" class="bg-dark text-white">
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+        <input type="text" id="name" name="name" class="bg-success text-white" required>
         
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+        <input type="email" id="email" name="email" class="bg-success text-white" required>
         
         <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
+        <textarea id="message" name="message" rows="4" class="bg-success text-white" required></textarea>
         
         <button type="submit" class="btn btn-lg bg-success text-light">Send Message</button>
       </form>
@@ -286,7 +332,7 @@
     <!-- Hire Me Section -->
     <section id="hireme">
       <h2 class="text-success">Hire Me</h2>
-      <p class="fw-bold text-body">If you're looking for a dedicated and skilled developer, feel free to reach out to discuss how I can contribute to your team.</p>
+      <p class="fw-bold text-white fs-5">If you're looking for a dedicated and skilled developer, feel free to reach out to discuss how I can contribute to your team.</p>
       <a href="mailto:simamkelen3112@gmail.com" class="btn bg-success text-light btn-lg">Contact Me</a>
     </section>
     
@@ -312,15 +358,4 @@
       </div>
      
 
-      <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init({
-        publicKey: "YOUR_PUBLIC_KEY",
-      });
-   })();
-</script>
-</body>
-</html>
+     
