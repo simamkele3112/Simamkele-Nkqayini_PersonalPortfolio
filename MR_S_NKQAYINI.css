@@ -21,6 +21,7 @@ body {
 .video-background-container {
   position: relative;
   width: 100%;
+  border-radius: 15px;
 
   overflow: hidden;
 }
@@ -58,6 +59,10 @@ body {
     border-radius: 30%;
   }
   
+  #Pic{
+    border-radius: 2px;
+    width: 20%;
+  }
   .profile-container {
     display: flex;
     flex-direction: column;
@@ -280,6 +285,7 @@ h2.text-success {
   #skills {
     padding: 50px 0;
     text-align: center;
+    
   }
 
   .projects-heading {
@@ -293,6 +299,7 @@ h2.text-success {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-radius: 15px;
   }
   
   .skill {
@@ -462,3 +469,4 @@ h2.text-success {
   transform: scale(1.03); /* Scale the card on hover */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
 }
+
