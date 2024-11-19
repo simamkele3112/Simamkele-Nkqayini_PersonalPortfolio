@@ -7,6 +7,7 @@ body {
   line-height: 1.6;
   background-color: cyan;
   color: black;
+  background-image: url(./back.jpg);
 }
 
   .logo {
@@ -20,7 +21,7 @@ body {
 .video-background-container {
   position: relative;
   width: 100%;
-  height: 100vh;
+
   overflow: hidden;
 }
 
@@ -47,6 +48,7 @@ body {
   border-radius: 50%;
   margin-top: 20px;
 }
+
 
   
   
@@ -277,7 +279,6 @@ h2.text-success {
   
   #skills {
     padding: 50px 0;
-    background-color: #f8f9fa;
     text-align: center;
   }
 
@@ -405,7 +406,8 @@ h2.text-success {
     }
   
     .profile-container {
-      align-items}
+      
+    }
 
 
 
@@ -425,35 +427,38 @@ h2.text-success {
 
 }
 
-/*projects*/
+  }
 
-#projects {
-  text-align: center;
-  margin: 50px 0;
+  /*projects*/
+.projects .card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.project-card {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 15px;
+.projects .card-title {
+  color: #333;
 }
 
-.project-card img {
-  border-bottom: 1px solid #ddd;
+.projects .btn-warning {
+  color: #fff;
+  background-color: #ffc107;
+  border: none;
 }
 
-.project-card .card-body {
-  padding: 20px;
+.projects .card-text {
+  color: #666;
 }
 
-.row {
-  display: flex;
-  justify-content: space-between;
+#image-card{
+  border: solid 1px orange;
+  height: 200px;
+  object-fit:cover ;
+}
+.box-shadow {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for scale and shadow */
 }
 
-.row .col-md-2 {
-  flex: 1;
-  margin: 0 10px;
+.box-shadow:hover {
+  transform: scale(1.03); /* Scale the card on hover */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
 }
-
