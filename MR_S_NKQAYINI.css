@@ -227,7 +227,7 @@ h2.text-success {
 #education {
   padding: 40px 20px;
   text-align: center;
-  background-color: #f8f9fa; /* Light background to make the section stand out */
+   /* Light background to make the section stand out */
 }
 
 #education h2 {
