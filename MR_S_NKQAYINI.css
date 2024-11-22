@@ -477,33 +477,5 @@ h2.text-success {
 
 
 
-/* Make sure the navbar is aligned properly */
-.navbar-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* Distribute items with space between */
-}
-
-/* Adjust the alignment of the "HIRE ME" button */
-.navbar-nav .nav-item:last-child .nav-link {
-  padding-left: 20px; /* Adds space on the left of the button */
-  padding-right: 20px; /* Adds space on the right of the button */
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.navbar-nav .nav-item:last-child .nav-link.btn {
-  border-radius: 25px; /* Makes the button rounder */
-  padding: 0.5rem 1rem; /* Padding for the button */
-}
-
-.navbar-toggler {
-  border: none; /* Optional: To hide the border around the hamburger icon */
-}
-
-.navbar-toggler-icon {
-  background-color: #fff; /* Change hamburger icon color */
-}
-
 
 
