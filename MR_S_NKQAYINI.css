@@ -162,8 +162,8 @@ body {
     margin: 0 auto;
   }
   #about {
-    padding: 40px 20px;
-    max-width: 1000px;
+    padding: 80px 20px 20px 20px;
+    max-width: 1042px;
     margin: 0 auto;
     text-align: center;
 }
@@ -226,7 +226,7 @@ h2.text-success {
 
   /* Education Section */
 #education {
-  padding: 40px 20px;
+  
   text-align: center;
    /* Light background to make the section stand out */
 }
@@ -240,7 +240,7 @@ h2.text-success {
 }
 
 .education-container {
-  max-width: 1000px;
+  max-width: 1042px;
   margin: 0 auto;
 }
 
@@ -284,7 +284,7 @@ h2.text-success {
   /*skill section*/
   
   #skills {
-    padding: 50px 0;
+    padding-top: 20px;
     text-align: center;
     
   }
@@ -301,6 +301,7 @@ h2.text-success {
     flex-wrap: wrap;
     justify-content: center;
     border-radius: 15px;
+    max-width: 1042px;
   }
   
   .skill {
