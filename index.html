@@ -337,6 +337,125 @@
   </div>
 </section>
 
+<section class="certification">
+  <div class="container py-5">
+    <h3 class="text-center mb-4">My Certificates</h3>
+    <p class="text-center">
+      Below are certifications I've earned that reflect my dedication to mastering software development skills and exploring new technologies.
+    </p>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <!-- Carousel Items -->
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active text-center">
+          <img src="./" class="d-block mx-auto rounded fade-in" alt="Software Development Life Cycle" style="width: 70%; max-height: 450px;">
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item text-center">
+          <img src="./assets/images/certificates/hacker.PNG" class="d-block mx-auto rounded fade-in" alt="Software Engineer Intern Certificate" style="width: 70%; max-height: 450px;">
+        </div>
+        <!-- Slide 3 -->
+        <div class="carousel-item text-center">
+          <img src="./assets/images/certificates/google-sdlc.PNG" class="d-block mx-auto rounded fade-in" alt="Google Agile Project Management Certificate" style="width: 70%; max-height: 450px;">
+        </div>
+        <!-- Slide 4 -->
+        <div class="carousel-item text-center">
+          <img src="./assets/images/certificates/Full-stack-dev.jpg" class="d-block mx-auto rounded fade-in" alt="Full Stack Developer" style="width: 70%; max-height: 450px;">
+        </div>
+      </div>
+
+      <!-- Custom Slide Controls -->
+      <div class="d-flex justify-content-center mt-4">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="btn button-color-move me-2 active">1</button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="btn button-color-move me-2">2</button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="btn button-color-move me-2">3</button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="btn btn-success">4</button>
+      </div>
+    </div>
+
+    <!-- Descriptions -->
+    <div class="mt-4 text-center">
+      <div id="description-0" class="description fade-in">
+        <h5>Software Development Life Cycle</h5>
+        <p>This certification demonstrates expertise in structured software development methodologies, including analysis, design, and testing phases.</p>
+      </div>
+      <div id="description-1" class="description d-none">
+        <h5>Software Engineer Intern Certificate</h5>
+        <p>Recognized for excelling in problem-solving, algorithm design, data structures, and implementing efficient solutions during my internship.</p>
+      </div>
+      <div id="description-2" class="description d-none">
+        <h5>Google Agile Project Management Certificate</h5>
+        <p>Acknowledges my ability to implement SDLC practices effectively, focusing on high-quality project delivery and collaboration.</p>
+      </div>
+      <div id="description-3" class="description d-none">
+        <h5>Full Stack Developer</h5>
+        <p>Showcases my proficiency in designing, developing, and deploying scalable web applications using modern full-stack technologies.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    // GSAP Animations for Carousel Images
+    const carouselItems = document.querySelectorAll('.carousel-item img');
+    carouselItems.forEach((img, index) => {
+      gsap.from(img, { 
+        opacity: 0, 
+        y: 50, 
+        duration: 1, 
+        delay: index * 0.5, 
+        ease: "power2.out"
+      });
+    });
+
+    // GSAP Animations for Buttons (Hover Effect)
+    const buttons = document.querySelectorAll('.button-color-move');
+    buttons.forEach(button => {
+      button.addEventListener('mouseenter', () => {
+        gsap.to(button, { 
+          scale: 1.1, 
+          duration: 0.3, 
+          ease: "power2.out"
+        });
+      });
+      button.addEventListener('mouseleave', () => {
+        gsap.to(button, { 
+          scale: 1, 
+          duration: 0.3, 
+          ease: "power2.inOut"
+        });
+      });
+    });
+
+    // GSAP Animations for Description Text
+    const descriptions = document.querySelectorAll(".description");
+    const carousel = document.querySelector('#carouselExampleIndicators');
+
+    carousel.addEventListener('slid.bs.carousel', (event) => {
+      descriptions.forEach((desc, index) => {
+        // Toggle visibility of descriptions
+        if (index === event.to) {
+          gsap.to(desc, {
+            opacity: 1, 
+            y: 0, 
+            duration: 1, 
+            ease: "power2.out"
+          });
+        } else {
+          gsap.to(desc, {
+            opacity: 0, 
+            y: 30, 
+            duration: 1, 
+            ease: "power2.in"
+          });
+        }
+      });
+    });
+  });
+</script>
+
 
  
 
