@@ -221,13 +221,14 @@ h2.text-success {
     color: #28a745;
 }
 
-  
+  /***
   #home .home-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
   }
+***/
 
   /* Education Section */
 #education {
