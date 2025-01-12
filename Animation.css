@@ -1,0 +1,223 @@
+.animated-btn {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(90deg, #28a745, #218838);
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    animation: pulse 1.8s infinite ease-in-out;
+  }
+  
+  .animated-btn:hover {
+    animation: zoom 0.4s ease-in-out forwards;
+    background: linear-gradient(90deg, #218838, #28a745);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1); /* More pronounced pulse */
+    }
+  }
+  
+  @keyframes zoom {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.25); /* Larger zoom on hover */
+    }
+    100% {
+      transform: scale(1.15); /* Slightly reduced for a smooth finish */
+    }
+  }
+  
+
+
+  .animinated-btn {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    animation: pulse 1.8s infinite ease-in-out;
+  }
+  
+  .animinated-btn:hover {
+    animation: zoom 0.4s ease-in-out forwards;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1); /* Gentle zoom effect */
+    }
+  }
+  
+  @keyframes zoom {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.25); /* Stronger zoom on hover */
+    }
+    100% {
+      transform: scale(1.15); /* Smooth finish with a slight reduction */
+    }
+  }
+  
+
+
+
+  .greeting {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 2s ease-out forwards;
+  }
+  
+  .subtext {
+    opacity: 0;
+    animation: typewriterStart 2s 2s ease-out forwards; /* Delayed to start after greeting fades in */
+    white-space: nowrap; /* Prevent text wrapping during typing */
+    overflow: hidden; /* Hide the overflowing text during animation */
+  }
+  
+  .typed-text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(40, end) 2s forwards; /* Typing effect without cursor */
+  }
+  
+  /* Keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes typewriterStart {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  
+
+  .nav-item {
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-link {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #28a745; /* Green underline effect */
+    left: 50%;
+    bottom: 0;
+    transition: width 0.3s ease, left 0.3s ease;
+    transform: translateX(-50%);
+  }
+  
+  .nav-link:hover {
+    color: #28a745; /* Green color on hover */
+    transform: translateY(-5px); /* Slight upward movement */
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+    left: 0;
+  }
+  
+  .nav-item:hover {
+    transform: translateX(5px); /* Slight sideways movement */
+  }
+  
+
+
+
+
+  /* General Logo Styling */
+.logo {
+    width: 120px; /* Adjust based on your logo size */
+    height: auto;
+    animation: logoAnimation 1.5s ease-out forwards; /* Apply animation */
+    filter: brightness(1.1); /* Slightly brighten the logo */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Animation for the Logo (Zoom, Rotate, and Glow on Load) */
+  @keyframes logoAnimation {
+    0% {
+      transform: scale(0.8) rotate(0deg); /* Start small and at normal position */
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.05) rotate(10deg); /* Slight zoom and rotation */
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1) rotate(0deg); /* End at normal size with no rotation */
+      opacity: 1;
+    }
+  }
+  
+  /* Glowing Effect (No Hover) */
+  .logo {
+    animation: glowAnimation 2s ease-in-out infinite alternate; /* Repeat glow animation */
+  }
+  
+  /* Glow Animation for Logo */
+  @keyframes glowAnimation {
+    0% {
+      box-shadow: 0 0 10px rgba(0, 255, 0, 0.6); /* Green glow at start */
+    }
+    100% {
+      box-shadow: 0 0 20px rgba(0, 255, 0, 1); /* Brighter green glow */
+    }
+  }
+
+
+
+
+
+  
