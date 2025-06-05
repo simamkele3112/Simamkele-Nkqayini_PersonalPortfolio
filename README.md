@@ -1,78 +1,131 @@
-Simamkele Nkqayini - Personal Portfolio
-Welcome to my portfolio! I'm Simamkele Nkqayini, a passionate Software Developer with a strong foundation in both Computer Science and Physics. This portfolio showcases my skills, projects, and professional journey in the world of software development. Feel free to explore my work and get in touch if you're interested in collaborating or learning more about my skills!
+Simamkele Nkqayini – Game & Software Developer Portfolio
+Welcome to my portfolio! I'm Simamkele Nkqayini, a dedicated Game Developer and Software Developer with a solid background in Computer Science and Physics. This space showcases my journey in building immersive digital experiences, from spooky 3D games to full-stack web applications.
 
-Table of Contents
+Currently, I’m growing my expertise in real-time game mechanics, Unity (C#), PlayCanvas, and web development while contributing to projects at Vetkoek Studios. I also collaborate with teams via GitHub, Discord, and Fork using effective project management practices.
+
+Alongside development, I’m advancing my cloud and security skills through Netcampus as a Microsoft Security Learner, focusing on SC-900, SC-300, and AZ-104 certifications.
+
+Whether you're looking for a creative game dev, a reliable full-stack engineer, or a security-aware developer—I’d love to connect.
+
+📑 Table of Contents
 About Me
+
 Education
+
 Skills
+
 Projects
+
+Certifications
+
 Contact Me
+
 Hire Me
-About Me
-I hold a Bachelor of Science (BSc) in Computer Science and Physics from the University of Fort Hare. I am currently expanding my skill set as a Full Stack Developer Intern at CAPACITI-UVU Africa, where I have gained hands-on experience in building both front-end and back-end applications.
 
-My skills span across various programming languages and technologies, including JavaScript, React, Node.js, Python, and Java. I am driven by a passion for solving complex problems and creating elegant, efficient, and user-friendly solutions.
+🔹 About Me
+I hold a BSc in Computer Science and Physics from the University of Fort Hare. Now active at Vetkoek Studios (2025), I work on designing and implementing engaging horror and exploration games with smooth player controls and immersive atmospheres.
 
-If you're looking for a developer who is dedicated, innovative, and eager to tackle new challenges, I’d love to hear from you!
+I'm also building my expertise in Unity (C#) and enhancing real-time web experiences with JavaScript, React, and Node.js. Collaboration is part of my workflow—I use GitHub, Discord, and Fork for seamless teamwork.
 
-Education
-Full Stack Developer Intern (2024 - Present)
-CAPACITI Software Development Bootcamp
-Key focus: HTML, CSS, JavaScript, Node.js, React, Python, and Java development.
+🎓 Education
+Game Developer & Intern (2025 – Present)
+Vetkoek Studios
+Working on 3D game development using PlayCanvas, Unity (C#), and web technologies.
 
-Bachelor of Science (BSc) in Computer Science and Physics
+Microsoft Security Cloud Track – In Progress (2025)
+Netcampus (Microsoft Security Learner)
+
+SC-900: Security, Compliance, and Identity Fundamentals
+
+SC-300: Identity and Access Administrator
+
+AZ-104: Azure Administrator Associate
+
+Bachelor of Science (BSc) in Computer Science & Physics
 University of Fort Hare
-An interdisciplinary program that combined computational techniques with the study of physical sciences, enhancing my problem-solving and analytical skills.
+Gained strong foundations in algorithms, computation, and analytical thinking.
 
-Grade 12
+Matric (NSC)
 Vulindlela Secondary School
-Focused on Physical Sciences, Mathematics, Life Sciences, and English.
+Subjects: Physical Science, Mathematics, Life Science, English
 
-Skills
-Here are some of the technologies and skills that I have worked with:
+⚙️ Skills & Technologies
+Game Development
 
-JavaScript
-React.js
-Node.js
-Java
-Python
-HTML5 & CSS3
-Bootstrap
-Data Structures & Algorithms
-Data Management
-Mathematical Problem Solving
-Projects
-Here are a few projects I have worked on:
+Unity (C#)
 
-1. My Portfolio Webpage
-A showcase of my skills, creativity, and growth as a developer. This was my first independent project where I learned how to combine design with functionality.
+PlayCanvas (JavaScript)
 
-2. Eco-friendly MarketPlace
-A marketplace designed to minimize waste and promote sustainability. Built using HTML, CSS, and Bootstrap 5.
+Lighting, triggers, UI, 3D controls
 
-3. Python Christmas Tree Sales Data Analysis
-A data analysis project that explores Christmas tree sales trends using Python libraries like Pandas, NumPy, Matplotlib, and Seaborn.
+Level & sound design
 
-4. Study_Sphere
-A collaborative project developed to address the skills gap in South Africa's tech industry. It’s a platform for learners and developers to upskill and collaborate.
+Web Development
 
-5. React SPA
-A simple Single Page Application (SPA) built with React, showcasing my ability to create interactive user interfaces.
+JavaScript, React, Node.js
 
-Contact Me
-Feel free to reach out via the following channels:
+Python, Java
 
+HTML, CSS, Bootstrap
+
+GitHub, Fork, Version Control
+
+Tools & Collaboration
+
+GitHub, Discord, Figma
+
+Fork (Git client)
+
+Trello / Notion (Project management)
+
+Cloud & Security (Learning)
+
+Azure Administration (AZ-104)
+
+Microsoft Identity (SC-300)
+
+Security Fundamentals (SC-900)
+
+🎮 Featured Projects
+1. Echo Maze – 3D Horror Game
+Built in PlayCanvas, this immersive maze game challenges players to collect keys and escape while navigating flickering lights, jumpscares, and heartbeat-triggered audio.
+✔️ Score tracking, ranking system, dynamic UI, proximity-based sound design.
+
+2. Eco-friendly Marketplace
+Web platform promoting sustainable products. Built with HTML, CSS, Bootstrap, and collaborative input via GitHub + Discord.
+
+3. React Single Page Application (SPA)
+A dynamic and responsive frontend app using React.js, demonstrating component reusability and routing.
+
+4. Python Data Analysis: Christmas Tree Sales
+Data-driven insights with Pandas, NumPy, and Seaborn to visualize real-world trends.
+
+5. Study_Sphere Platform
+A collaborative learning tool designed to help South African learners access curated study content and find mentors.
+
+📜 Certifications (In Progress)
+SC-900: Microsoft Security, Compliance & Identity Fundamentals
+
+SC-300: Microsoft Identity and Access Administrator
+
+AZ-104: Microsoft Azure Administrator
+
+📬 Contact Me
 Email: simamkelen3112@gmail.com
-Phone: 0604567462
+
+Phone: 060 456 7462
+
 Location: Cape Town, South Africa
-Alternatively, you can contact me directly through the contact form below.
 
-Hire Me
-If you're looking for a dedicated and skilled software developer, I'd love to collaborate! Whether it's a web development project or something else, feel free to reach out to discuss how I can contribute to your team.
+Want to collaborate or hire me? I’m open to freelance, internship, and remote roles in game or web development!
 
-Email me directly to get in touch.
-Social Media:
+💼 Hire Me
+If you need a developer who’s passionate about games, web, or cloud—I bring problem-solving, creativity, and teamwork to every project. Let’s build something immersive and meaningful together!
 
+🌐 Social Media
 GitHub
+
 LinkedIn
-© 2024 Simamkele Nkqayini. All rights reserved.
+
+© 2025 Simamkele Nkqayini. All rights reserved.
+
